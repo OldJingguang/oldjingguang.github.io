@@ -13,16 +13,11 @@
 }
 
 .jumbohead1{
-	background-color:#fff!important;
-	background-size:80%;
 	background-repeat:no-repeat;
-	background-position: bottom right;
-	margin-top: 50px;
+	background-position: center right;
 }
-@media(max-width: 768px){
-	.jumbohead1{
-		background-size: 95%
-	}
+.jumbohead1 p,.jumbohead1 h1{
+	color: #fff
 }
 
 .card-title,.card-text{
