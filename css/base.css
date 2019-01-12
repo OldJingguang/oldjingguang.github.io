@@ -1,0 +1,29 @@
+.jumbohead{
+	background-image:url(../res/banner/banner.png);
+	background-color:#fff!important;
+	background-size:50%;
+	background-repeat:no-repeat;
+	background-position: bottom right;
+	height:50%;
+	margin-top: 50px;
+}
+@media(max-width: 768px){
+	.jumbohead{
+		background-size: 95%
+	}
+}
+
+.card-title,.card-text{
+	width:100%;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+
+a{
+	text-decoration: none!important;
+	color:#000
+}
+a:hover{
+	color:#5ea67a
+}
