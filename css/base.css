@@ -1,5 +1,4 @@
 .jumbohead{
-	background-image:url(../res/banner/banner.png);
 	background-color:#fff!important;
 	background-size:50%;
 	background-repeat:no-repeat;
@@ -9,6 +8,19 @@
 }
 @media(max-width: 768px){
 	.jumbohead{
+		background-size: 95%
+	}
+}
+
+.jumbohead1{
+	background-color:#fff!important;
+	background-size:80%;
+	background-repeat:no-repeat;
+	background-position: bottom right;
+	margin-top: 50px;
+}
+@media(max-width: 768px){
+	.jumbohead1{
 		background-size: 95%
 	}
 }
