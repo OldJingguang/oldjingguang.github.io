@@ -1,3 +1,13 @@
+.nav-link {
+	display: inline-block;
+	margin-right: 15px;
+}
+.navbar{
+	display: block;
+}
+.navbar-nav {
+	display: block;
+}
 .jumbohead{
 	background-color:#fff!important;
 	background-size:50%;
@@ -19,7 +29,9 @@
 .jumbohead1 p,.jumbohead1 h1{
 	color: #fff
 }
-
+.card,.alert{
+	border-radius: 1em
+}
 .card-title,.card-text{
 	width:100%;
 	white-space:nowrap;
@@ -32,5 +44,15 @@ a{
 	color:#000
 }
 a:hover{
+	color:#5ea67a
+}
+.textcon p{
+	line-height: 2em;
+	margin:1.5em 0;
+}
+mark{
+	font-weight: bolder;
+}
+.colored{
 	color:#5ea67a
 }
