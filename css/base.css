@@ -23,6 +23,7 @@
 }
 
 .jumbohead1{
+	background-color: gray!important;
 	background-repeat:no-repeat;
 	background-position: center right;
 }
@@ -62,7 +63,4 @@ mark{
 .card-img-top {
 	border-top-left-radius: calc(1rem - 1px);
 	border-top-right-radius: calc(1rem - 1px);
-}
-.jumbotron {
-	background-color: gray;
 }
