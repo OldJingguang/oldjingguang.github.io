@@ -63,3 +63,6 @@ mark{
 	border-top-left-radius: calc(1rem - 1px);
 	border-top-right-radius: calc(1rem - 1px);
 }
+.jumbotron {
+	background-color: gray;
+}
