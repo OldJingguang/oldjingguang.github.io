@@ -19,7 +19,7 @@
 </head>
 
 <body>
-	<nav id="top" class="navbar navbar-expand-lg navbar-dark bg-dark">
+	<nav id="top" class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
 		<center>
 		<div class="navbar-nav">
 			<a class="nav-item nav-link" href="https://oldjingguang.github.io">首页 <span class="sr-only">(current)</span></a>
@@ -30,7 +30,7 @@
 		</div>
 		</center>
 	</nav>
-
+	<div class="bg-dark" style="height: 50px"></div>
 	<div class="jumbotron jumbotron-fluid jumbohead1" style="background-image:url(res/img/4Ablur.jpg)">
 		<div class="container">
 			<div class="row justify-content-lg-center">
@@ -114,9 +114,12 @@
 	</div>
 
 </body>
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/jquery.bootstrap-autohidingnavbar.js"></script>
 <script src="js/lazy.js"></script>
 <script>
 	window.onload=checkImgs;
 	window.onscroll = throttle(checkImgs);
+	$("nav.navbar.fixed-top").autoHidingNavbar();
 </script>
 </html>
