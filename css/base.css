@@ -1,3 +1,23 @@
+@supports (-webkit-backdrop-filter: blur(15px)) or (backdrop-filter: blur(15px)) {
+	.navbar.blur{
+		backdrop-filter: blur(15px);
+		-webkit-backdrop-filter: blur(15px);
+	}
+	.navbar-light {
+	    background-color: #f8f9faa9;
+	    border-color: transparent!important;
+	}
+}
+
+@supports not ((-webkit-backdrop-filter: blur(15px)) or (backdrop-filter: blur(15px))) {
+	.navbar.blur{
+		background-color: #f8f9fa;
+	}
+	.navbar-light {
+	    background-color: #f8f9fa;
+	}
+}
+
 .nav-link {
 	display: inline-block;
 	margin-right: 15px;
